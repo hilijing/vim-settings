@@ -251,6 +251,8 @@ nnoremap <C-l> <C-w>l
 " emoji
 imap <C-e> <C-X><C-U>
 
+" 在Insert模式下用kj取代Esc
+inoremap kj <Esc>
 
 """"""""""""""""""""""""""""""PLUGIN CONFIG""""""""""""""""""""""""""
 " NerdCommenter
