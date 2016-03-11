@@ -260,8 +260,8 @@ let g:NERDSpaceDelims=1
 
 " NERDTREE
 " 不显示的文件
-let NERDTreeIgnore=['\.pyc$', '\~$']
-let NERDTreeShowHidden=1
+let NERDTreeIgnore=['\.pyc$', '\~$', 'pycache']
+"let NERDTreeShowHidden=1
 " show nerdtree when starts up
 "autocmd vimenter * NERDTree
 " 退出最后一个buff时也退出nerdtree
