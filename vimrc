@@ -40,7 +40,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'zenorocha/dracula-theme'
+Plugin 'zenorocha/dracula-theme', {'rtp', 'vim/'}
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -253,6 +253,8 @@ imap <C-e> <C-X><C-U>
 
 " 在Insert模式下用kj取代Esc
 inoremap kj <Esc>
+inoremap <C-[> <Esc>
+inoremap jj <Esc>
 
 """"""""""""""""""""""""""""""PLUGIN CONFIG""""""""""""""""""""""""""
 " NerdCommenter
