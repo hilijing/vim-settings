@@ -25,8 +25,6 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'Yggdroot/indentLine'
 Plugin 'nvie/vim-flake8'
 Plugin 'davidhalter/jedi-vim'
-Plugin 'axiaoxin/vim-json-line-format'
-Plugin 'axiaoxin/favorite-vim-colorscheme'
 Plugin 'junegunn/vim-emoji'
 Plugin 'mhinz/vim-startify'
 Plugin 'terryma/vim-multiple-cursors'
@@ -40,7 +38,8 @@ Plugin 'majutsushi/tagbar'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
+Plugin 'dracula/vim'
+#Plugin 'dracula/dracula-theme', {'rtp': 'vim/'}
 
 call vundle#end()            " required
 filetype plugin indent on    " required
