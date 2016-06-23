@@ -39,7 +39,6 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'dracula/vim'
-#Plugin 'dracula/dracula-theme', {'rtp': 'vim/'}
 
 call vundle#end()            " required
 filetype plugin indent on    " required
